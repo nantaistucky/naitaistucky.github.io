@@ -1,27 +1,3 @@
 ## test test
-{
-  "config": {
-    "platform": "github",
-    "domain": "",
-    "repository": "",
-    "branch": "",
-    "username": "",
-    "email": "",
-    "token": ""
-  },
-  "comment": {
-    "commentPlatform": "gitalk",
-    "disqusSetting": {
-      "api": "",
-      "apikey": "",
-      "shortname": ""
-    },
-    "gitalkSetting": {
-      "clientId": "",
-      "clientSecret": "",
-      "owner": "",
-      "repository": ""
-    },
-    "showComment": true
-  }
-}
+## Nananana
+
