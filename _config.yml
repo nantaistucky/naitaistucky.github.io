@@ -1,30 +1,49 @@
-Site settings
-title: nan太 club             
-description: "nan太的stucky仓库"    
+# Basic
+title: Vno Jekyll
+subtitle: A blog-orientation theme for Jekyll
+welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+description: Vno Jekyll is a port of my Ghost theme vno.
+creator: <a href="http://onev.cat">@onevcat</a>
 
-SNS settings      
-github_username: nantaistucky
-weibo_username: nan太
+url: "http://vno.onevcat.com"
 
-cdn-url: "https://nantai.club/"
+permalink: /:year/:month/:title/
 
-# Qiniu imageView2 API
-clip-content: "?imageView2/1/w/1400/h/400/interlace/1/q/90"
-clip-avatar: "?imageView2/2/w/300/h/300/interlace/1/q/90"
-clip-post: "?" # you can custom post width and height
-clip-home-post-bg: "?imageView2/1/w/800/h/300/interlace/1/q/70"
+# Format
+highlighter: rouge
 
-#post default images
-post-default-img: post-default.jpg
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: red
 
-# friends
-friends: [
-	{
-		title: "your friend title",
-		href: "your fiend path"
-	},
-	{
-		title: "your friend title 2",
-		href: "your friend path 2"
-	}
-] 
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: vno-jekyll
+    # duoshuo: 
+    
+# Social
+social:
+    weibo: onevcat
+    github: onevcat
+    twitter: onevcat
+    gplus: 107108267983477358170
+    mail: onev@onevcat.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
