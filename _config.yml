@@ -1,10 +1,7 @@
 # Basic
 title: nan太
 subtitle: A blog for persona fanfaction
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-
 url: "https://nantai.club"
-
 permalink: /:year/:month/:title/
 
 # Format
@@ -29,7 +26,7 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: vno-jekyll
+    disqus: 建设中
     # duoshuo: 
     
 # Social
