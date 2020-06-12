@@ -20,7 +20,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'https://nantai.club/}
+    - {title: Projects, description: blog, url: "https://nantai.club/"}
 
 # Pagination
 plugins: [jekyll-paginate]
